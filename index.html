@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="Asset 1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="d-flex align-items-center py-4">
+            <div class="logo">
+                <a href=""><img src="5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" height="30px" alt=""></a>
+            </div>
+            <div class="nav-items">
+                <div class="link-btns">
+                    <ul>
+                        <li class="dropdown">
+                            <a class="product-menu" href="#">Product</a>
+                            <img src="dropdown-arrow-svgrepo-com.svg" width="25px" alt="">
+                            <div class="drop-box-1 drop-down-menu">
+                                <ul>
+                                    <li><a href="#">Product 1</a></li>
+                                    <li><a href="#">Product 2</a></li>
+                                    <li><a href="#">Product 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a class="temp-menu" href="#">Template</a>
+                            <img src="dropdown-arrow-svgrepo-com.svg" width="25px" alt="">
+                            <div class="drop-box-2 drop-down-menu">
+                                <ul>
+                                    <li><a href="#">Template 1</a></li>
+                                    <li><a href="#">Template 2</a></li>
+                                    <li><a href="#">Template 3</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+
+                <div class="log-btns">
+                    <div class="login-btn">
+                        <a href="">LOG IN</a>
+                    </div>
+                    <div class="start-btn">
+                        <a href="">START FREE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger-icon">
+                <img id="hamburger-img" src="hamburger-menu-svgrepo-com (1).svg" height="50px" width="40px" alt="">
+            </div>
+
+        </nav>
+        <div class="hidden-nav show">
+            <div class="inner-items">
+                <div class="link-btns">
+                    <ul>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Template</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="log-btns">
+                    <div class="login-btn">
+                        <a href="">LOG IN</a>
+                    </div>
+                    <div class="start-btn">
+                        <a href="">START FREE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="top-container" class="container mt-5">
+            <div class="row my-5 justify-content-center">
+                <div class="col-md-8 mt-5">
+                    <div class="price-text">
+                        <h3 class="text">Plan & Price</h3>
+                        <div class="toggle-container">
+                            <img src="text svg.svg" alt="">
+                            <div class="inner-container">
+                                <span id="monthly-label">Monthly</span>
+                                <div class="toggle-switch" id="toggleSwitch">
+                                    <div class="toggle-circle"></div>
+                                </div>
+                                <span id="yearly-label">Yearly</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container m-auto  d-flex justify-content-center align-items-center p-0">
+            <div class="row w-100 mt-5 d-flex  justify-content-center ">
+                <!-- Basic Plan -->
+                <div class="col-md-4  mb-4">
+                    <div class="card p-4">
+                        <h4 class="card-title">Basic Plan</h4>
+                        <p class="card-desc">Perfect for individuals starting out.</p>
+                        <div id="price-tag-1" class="price-tag">$19/Month</div>
+                        <div class="check-list  mt-3 mb-4">
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>1 User Access</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>5 Projects</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Email Support</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Community Access</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Basic Analytics</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>1 GB Storage</div>
+                            </div>
+                        </div>
+                        <button class="btn mt-auto py-3" id="card-btn">Choose Plan</button>
+                    </div>
+                </div>
+
+                <!-- Standard Plan -->
+                <div class="col-md-4   mb-4">
+                    <div class="card p-4 ">
+                        <h4 class="card-title">Standard Plan</h4>
+                        <p class="card-desc">Great for growing teams and small businesses.</p>
+                        <div id="price-tag-2" class="price-tag">$30/Month</div>
+                        <div class="check-list mt-3 mb-4">
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>5 User Access</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>20 Projects</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Priority Email Support</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Community + Chat Access</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Advanced Analytics</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>10 GB Storage</div>
+                            </div>
+                        </div>
+                        <button class="btn mt-auto py-3" id="card-btn">Choose Plan</button>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="col-md-4   mb-4">
+                    <div class="card p-4 ">
+                        <h4 class="card-title">Pro Plan</h4>
+                        <p class="card-desc">Ideal for enterprises and power users.</p>
+                        <div id="price-tag-3" class="price-tag">$49/Month</div>
+                        <div class="check-list mt-3 mb-4">
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Unlimited Users</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Unlimited Projects</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>24/7 Support</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Dedicated Account Manager</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>Custom Reports</div>
+                            </div>
+                            <div class="tick">
+                                <img src="tick.svg" width="15px" height="20px" alt="">
+                                <div>100 GB Storage</div>
+                            </div>
+                        </div>
+                        <button class="btn mt-auto py-3 " id="card-btn">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 d-flex justify-content-center ">
+            <div class="row">
+                <h3 style="text-align: center;
+            font-weight: 400;
+            margin-bottom: 40px;">Super charge your work with add-ons</h3>
+                <div class="col-md-12">
+                    <!-- Collaborators -->
+                    <div class="pricing-card d-flex justify-content-between align-items-center">
+                        <div>
+                            <div class="pricing-title">Collaborators</div>
+                            <div>Invite other users to specific projects for limited access and functionality.</div>
+                        </div>
+                        <div class="pricing-price">Free</div>
+                    </div>
+
+                    <!-- Partners -->
+                    <div class="pricing-card d-flex justify-content-between align-items-center">
+                        <div>
+                            <div class="pricing-title">Partners</div>
+                            <div>Invite other users for full account access and company management.</div>
+                        </div>
+                        <div class="pricing-price">$9/<small>MONTH</small></div>
+                    </div>
+
+                    <!-- Bonsai Tax -->
+                    <div class="pricing-card d-flex justify-content-between align-items-center">
+                        <div>
+                            <div class="pricing-title">Bonsai Tax</div>
+                            <div>Track expenses, identify write-offs, and estimate quarterly taxes easily.</div>
+                            <a href="#" class="learn-more">LEARN MORE &gt;</a>
+                        </div>
+                        <div class="pricing-price">$10/<small>MONTH</small></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center ">
+                <div class="col-md-12 m-5">
+                    <div class="custom-card">
+                        <div class="card-info">
+                            <h2>It's <span>your</span> business.</h2>
+                            <p>We're here to help it grow.</p>
+                        </div>
+                        <button class="custom-btn">START FREE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="row justify-content-center align-items-center">
+                <h2 class="text-center m-5 " style=" color: #00b289;">Frequently Asked Questions</h2>
+                <div class="col-md-8">
+                    <div class="faq-card">
+                        <div class="faq-card-info">
+                            <h4>
+                                <a class="text-left" type="button">
+                                    How does the 14 day free trial work?
+                                </a>
+                            </h4>
+                            <img src="dropdown-arrow-svgrepo-com.svg" width="40px" alt="">
+                        </div>
+                        <div class="paragraph">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis ex laboriosam quod
+                            non, culpa recusandae quibusdam facere! Placeat, molestias?
+                        </div>
+                    </div>
+                    <div class="faq-card">
+                        <div class="faq-card-info">
+                            <h4>
+                                <a class="text-left" type="button">
+                                    Can I change plans anytime?
+                                </a>
+                            </h4>
+                            <img src="dropdown-arrow-svgrepo-com.svg" width="40px" alt="">
+                        </div>
+                        <div class="paragraph">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis ex laboriosam quod
+                            non, culpa recusandae quibusdam facere! Placeat, molestias?
+                        </div>
+                    </div>
+                    <div class="faq-card">
+                        <div class="faq-card-info">
+                            <h4>
+                                <a class="text-left" type="button">
+                                    how do I pause my bonsai subscription?
+                                </a>
+                            </h4>
+                            <img src="dropdown-arrow-svgrepo-com.svg" width="40px" alt="">
+                        </div>
+                        <div class="paragraph">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis ex laboriosam quod
+                            non, culpa recusandae quibusdam facere! Placeat, molestias?
+                        </div>
+                    </div>
+                    <div class="faq-card">
+                        <div class="faq-card-info">
+                            <h4>
+                                <a class="text-left" type="button">
+                                    What is your refund policy?
+                                </a>
+                            </h4>
+                            <img src="dropdown-arrow-svgrepo-com.svg" width="40px" alt="">
+                        </div>
+                        <div class="paragraph">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad perspiciatis ex laboriosam quod
+                            non, culpa recusandae quibusdam facere! Placeat, molestias?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-light mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>PRODUCT</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Proposals</a></li>
+                        <li><a href="#">Contracts</a></li>
+                        <li><a href="#">Invoicing</a></li>
+                        <li><a href="#">Client CRM</a></li>
+                        <li><a href="#">Time Tracking</a></li>
+                        <li><a href="#">Task Tracking</a></li>
+                        <li><a href="#">Forms</a></li>
+                        <li><a href="#">Accounting</a></li>
+                        <li><a href="#">Bonsai Tax</a></li>
+                        <li><a href="#">Bonsai Cash</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Bonsai Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>FREE RESOURCES</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Freelance Resources</a></li>
+                        <li><a href="#">Freelance Blog by Bonsai</a></li>
+                        <li><a href="#">How to Write a Contract</a></li>
+                        <li><a href="#">Online Signature Maker</a></li>
+                        <li><a href="#">Self-Employed Taxes Hub</a></li>
+                        <li><a href="#">Self-Employed Tax Calculator</a></li>
+                        <li><a href="#">Self-Employed Tax Deductions</a></li>
+                        <li class="mt-3">
+                            <h6>Templates</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Invoice Templates <img src="dropdown-arrow-svgrepo-com.svg" width="20px"
+                                            alt=""></a></li>
+                                <li><a href="#">Proposal Templates <img src="dropdown-arrow-svgrepo-com.svg"
+                                            width="20px" alt=""></a></li>
+                                <li><a href="#">Contract Templates <img src="dropdown-arrow-svgrepo-com.svg"
+                                            width="20px" alt=""></a></li>
+                                <li><a href="#">Agreement Templates <img src="dropdown-arrow-svgrepo-com.svg"
+                                            width="20px" alt=""></a></li>
+                                <li><a href="#">Scope of Work Templates <img src="dropdown-arrow-svgrepo-com.svg"
+                                            width="20px" alt=""></a>
+                                <li>
+                                <li><a href="#">Quote Templates <img src="dropdown-arrow-svgrepo-com.svg" width="20px"
+                                            alt=""></a></li>
+                                <li><a href="#">Credit Note Templates <img src="dropdown-arrow-svgrepo-com.svg"
+                                            width="20px" alt=""></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>BONSAI</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Write for Us</a></li>
+                        <li><a href="#">Comparisons <i class="fas fa-chevron-down"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
